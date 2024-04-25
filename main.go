@@ -24,7 +24,7 @@ func main() {
 	slog.Info("WatermelonPGP has started")
 
 	jobs.InitJobs()
-	App()
+	//App()
 	server.StartHTTPServer(8080)
 
 	slog.Info("Stopping WatermelonPGP")
