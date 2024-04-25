@@ -1,0 +1,18 @@
+---
+instance: "WATERMELONPGP-SERVER"
+level: "info"
+jobs:
+  - name: "peoplesoft"
+    type: "encryption"
+    keyfile: "path/to/keyfile"
+    passphrase: ""
+    source: "path/to/source"
+    destination: "path/to/destination"
+    schedule: "0/30 * * * * *"
+  - name: "succesfactor"
+    type: "decryption"
+    keyfile: "path/to/keyfile"
+    passphrase: ""
+    source: "path/to/source"
+    destination: "path/to/destination"
+    schedule: "0/30 * * * * *"

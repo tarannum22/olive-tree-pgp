@@ -2,7 +2,10 @@ module github.com/tarannum22/olive-tree-pgp
 
 go 1.22.1
 
-require github.com/ProtonMail/gopenpgp/v2 v2.7.5
+require (
+	github.com/ProtonMail/gopenpgp/v2 v2.7.5
+	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+)
 
 require (
 	github.com/ProtonMail/go-crypto v0.0.0-20230717121422-5aa5874ade95 // indirect
